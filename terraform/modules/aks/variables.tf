@@ -28,6 +28,7 @@ variable "node_vm_size" {
 variable "dns_prefix" {
     description = "The DNS prefix to use with the AKS cluster."
     type        = string
+    default     = "formbricks"
 }
 
 variable "environment" {
