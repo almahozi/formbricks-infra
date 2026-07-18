@@ -1,16 +1,8 @@
 # Project 3 — Formbricks on GKE
-> DevOps portfolio project | Goal: land a DevOps/Cloud job by end of 2026
+> DevOps portfolio project
 
 ## What We're Building
 Self-hosted [Formbricks](https://formbricks.com) (open-source form/survey platform) deployed on GCP using GitOps, multi-environment promotion, and a production-grade infra stack. The app is the vehicle — the infra is the portfolio.
-
-## Why This Stack
-Gaps identified from 7 Saudi/regional DevOps job descriptions:
-- **GCP** — appears in 5/7 JDs, zero hands-on so far
-- **ArgoCD/GitOps** — appears in 3/7 JDs, most commonly asked gap in interviews
-- **Ansible** — appears in 4/7 JDs, not touched yet
-- **HashiCorp Vault** — appears in 3/7 JDs, secrets management story missing
-- **Multi-environment CI/CD** — implied in most JDs, not demonstrated yet
 
 ## App: Formbricks
 - Open source (AGPLv3), no custom app code needed
@@ -107,14 +99,3 @@ Code push → GitHub Actions CI
 | Cachet on AWS | Terraform, Docker, GitHub Actions, EC2, RDS, SSM, OIDC | Single-service deploy, AWS basics, CI/CD push model |
 | Gitea on EKS | EKS, Helm, HPA, Trivy, Prometheus, Grafana, AlertManager, IRSA | K8s, Helm, observability, AWS deep dive |
 | **Formbricks on GKE** | GCP, GKE, ArgoCD, Vault, Ansible, multi-env | GitOps, multi-cloud, secrets mgmt, multi-environment |
-
-## Target Roles (from JD analysis)
-- **Mozn AI** — junior-mid, multi-cloud, Saudi-based → best immediate fit
-- **Webook.com** — 3-5 yrs, AWS+GCP, remote-friendly → strong fit post-GCP
-- **Riyadh 20k role** — GCP preferred, ArgoCD listed in critical competencies
-
-## Notes
-- Daily availability: 1-2 hrs weekdays + more on weekends
-- Target: job landed by end of 2026
-- Keep app layer untouched — all hours go to infra
-- Document everything as you build — the README and postmortem are part of the portfolio
